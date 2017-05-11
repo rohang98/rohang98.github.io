@@ -41,7 +41,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://c1.staticflickr.com/3/2438/3983052537_61f8e60cda_b.jpg');
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSREcJLupJBCpD4zNg7KMyNaSY5ISWMUuaeUh8Df9GQKZ4VyAph-g');
   background-size: cover;
   color: #ffffff;
   height: 500px;
@@ -58,14 +58,14 @@ header p {
 .btn.btn-primary {
   border-radius: 2px;
   border: 0px;
-  color: #fbd1d5;
+  color: #000000;
   text-shadow: none;
   background-color: #ffffff;
 }
 
 .btn.btn-primary:hover {
   color: #ffffff;
-  background-color: #fbd1d5;
+  background-color: #000000;
 }
 
 .btn-secondary {
