@@ -21,6 +21,7 @@ header h1 {
 header nav {
   display: flex;
   justify-content: flex-end;
+  float: right;
 }
 
 header p {
@@ -67,20 +68,23 @@ section .row img {
   background-color: #000000;
 }
 
-.btn-secondary {
-  background-color: #E8DFE0;
-  color: #ffffff;
-  margin: 0 0 30px;
+.btn.btn-primary2 {
+  border-radius: 2px;
+  border: 0px;
+  color: #000000;
+  text-shadow: none;
+  background-color: #ffffff;
 }
 
-.contact-btn {
-  float: right;
+.btn.btn-primary2:hover {
+  color: #ffffff;
+  background-color: #000000;
 }
 
 .contact-btn a {
   margin-right: 30px;
   padding: 8px 18px;
-  border: 1px solid #204156;
+  border: 1px solid #000000;
 }
 
 .contact-btn a:active {
