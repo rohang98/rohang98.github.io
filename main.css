@@ -41,7 +41,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg');
+  background-image: url('https://c1.staticflickr.com/3/2438/3983052537_61f8e60cda_b.jpg');
   background-size: cover;
   color: #ffffff;
   height: 500px;
@@ -82,13 +82,4 @@ footer {
 footer .col-sm-8 {
   display: flex;
   justify-content: flex-end;
-}
-
-footer ul {
-  list-style: none;
-}
-
-footer li img {
-  width: 32px;
-  height: 32px;
 }
