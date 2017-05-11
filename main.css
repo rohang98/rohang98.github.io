@@ -82,14 +82,11 @@ section .row img {
 }
 
 .contact-btn a {
-  margin-right: 30px;
-  padding: 8px 18px;
-  border: 1px solid #000000;
-}
-
-.contact-btn a:active {
-  position: relative;
-  bottom: 2px;
+  border-radius: 2px;
+  border: 1px solid #000000
+  color: #000000;
+  text-shadow: none;
+  background-color: #ffffff;
 }
 
 footer {
