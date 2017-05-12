@@ -25,7 +25,7 @@ header nav {
   position: absolute;
 }
 
-a:link{
+head a:link{
 	colour: #000000;
 }
 
@@ -92,7 +92,7 @@ section .row img {
 
 .contact-btn a {
   margin-right: 30px;
-  padding: 4px 18px;
+  padding: 8px 18px;
   border: 1px solid #000000;
 }
 
