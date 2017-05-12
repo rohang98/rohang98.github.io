@@ -25,7 +25,10 @@ header nav {
   position: absolute;
 }
 
-head a, head a:link, head a:visited, head a:hover{
+a, 
+a:link, 
+a:visited, 
+a:hover{
 	colour: #000000;
 }
 
