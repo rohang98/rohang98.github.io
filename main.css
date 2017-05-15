@@ -22,7 +22,8 @@ header nav {
   display: flex;
   justify-content: flex-end;
   float: right;
-  position: absolute;
+  position: relative;
+  right: 20px;
 }
 
 header p {
