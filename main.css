@@ -25,16 +25,10 @@ header nav {
   position: absolute;
 }
 
-a, 
-a:link, 
-a:visited, 
-a:hover{
-	color: #000000;
-}
-
 header p {
   padding: 0 20px;
   margin: 0;
+  color: #000000;
 }
 
 .jumbotron {
