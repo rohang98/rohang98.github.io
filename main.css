@@ -28,6 +28,9 @@ header nav {
 header p {
   padding: 0 20px;
   margin: 0;
+}
+
+header nav p{
   color: #000000;
 }
 
