@@ -23,6 +23,7 @@ header nav {
   justify-content: flex-end;
   float: right;
   position: absolute;
+  margin: 0;
 }
 
 header p {
