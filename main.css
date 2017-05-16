@@ -51,6 +51,23 @@ header nav a{
   color: #fff;
 }
 
+.jumbotron2 {
+  display: flex;
+  align-items: center;
+  background-image: url('http://studentarena.org/wp-content/uploads/2015/12/6-1.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h3 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
 section .row img {
   margin: 0 0 30px;
   width: 100%;
