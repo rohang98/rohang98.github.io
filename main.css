@@ -148,6 +148,7 @@ section .row img {
 footer {
   font-size: 12px;
   padding: 20px 0;
+  position: absolute;
 }
 
 footer .col-sm-8 {
