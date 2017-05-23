@@ -130,17 +130,17 @@ section .row img {
   background-color: #000000;
 }
 
-.contact-btn {
+.button-contact {
   float: right;
 }
 
-.contact-btn a {
+.button-contact a {
   margin-right: 30px;
   padding: 8px 18px;
   border: 1px solid #000000;
 }
 
-.contact-btn a:active {
+.button-contact a:active {
   position: relative;
   bottom: 2px;
 }
