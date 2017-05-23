@@ -8,8 +8,8 @@ header {
   padding: 20px 0;
 }
 
-header .top,
-footer .top {
+header .row,
+footer .row {
   display: flex;
   align-items: center;
 }
@@ -26,13 +26,13 @@ header nav {
   position: absolute;
 }
 
-header nav a{
-  color: #000000;
-}
-
 header p {
   padding: 0 20px;
   margin: 0;
+}
+
+header nav a{
+  color: #000000;
 }
 
 .jumbotron {
@@ -78,7 +78,7 @@ section .row img {
   margin: 0 0 30px;
 }
 
-.button-1 {
+.btn.btn-primary {
   border-radius: 2px;
   border: 0px;
   color: #000000;
@@ -86,12 +86,12 @@ section .row img {
   background-color: #ffffff;
 }
 
-.button-1:hover {
+.btn.btn-primary:hover {
   color: #ffffff;
   background-color: #000000;
 }
 
-.button-2 {
+.btn.btn-primary2 {
   border-radius: 2px;
   border: 0px;
   color: #000000;
@@ -99,12 +99,12 @@ section .row img {
   background-color: #ffffff;
 }
 
-.button-2:hover {
+.btn.btn-primary2:hover {
   color: #ffffff;
   background-color: #000000;
 }
 
-.button-3 {
+.btn.btn-primary3 {
   border-radius: 2px;
   border: 0px;
   color: #000000;
@@ -112,12 +112,12 @@ section .row img {
   background-color: #ffffff;
 }
 
-.button-3:hover {
+.btn.btn-primary3:hover {
   color: #ffffff;
   background-color: #000000;
 }
 
-.button-4 {
+.btn.btn-primary4 {
   border-radius: 2px;
   border: 0px;
   color: #000000;
@@ -125,22 +125,22 @@ section .row img {
   background-color: #ffffff;
 }
 
-.button-4:hover {
+.btn.btn-primary4:hover {
   color: #ffffff;
   background-color: #000000;
 }
 
-.button-contact {
+.contact-btn {
   float: right;
 }
 
-.button-contact a {
+.contact-btn a {
   margin-right: 30px;
   padding: 8px 18px;
   border: 1px solid #000000;
 }
 
-.button-contact a:active {
+.contact-btn a:active {
   position: relative;
   bottom: 2px;
 }
@@ -151,7 +151,7 @@ footer {
   position: absolute;
 }
 
-footer .trademark {
+footer .col-sm-8 {
   display: flex;
   justify-content: flex-end;
 }
