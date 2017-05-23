@@ -78,7 +78,7 @@ section .row img {
   margin: 0 0 30px;
 }
 
-.btn.btn-primary {
+.button-one {
   border-radius: 2px;
   border: 0px;
   color: #000000;
@@ -86,12 +86,12 @@ section .row img {
   background-color: #ffffff;
 }
 
-.btn.btn-primary:hover {
+.button-one:hover {
   color: #ffffff;
   background-color: #000000;
 }
 
-.btn.btn-primary2 {
+.button-two {
   border-radius: 2px;
   border: 0px;
   color: #000000;
@@ -99,12 +99,12 @@ section .row img {
   background-color: #ffffff;
 }
 
-.btn.btn-primary2:hover {
+.button-two:hover {
   color: #ffffff;
   background-color: #000000;
 }
 
-.btn.btn-primary3 {
+.button-three {
   border-radius: 2px;
   border: 0px;
   color: #000000;
@@ -112,12 +112,12 @@ section .row img {
   background-color: #ffffff;
 }
 
-.btn.btn-primary3:hover {
+.button-three:hover {
   color: #ffffff;
   background-color: #000000;
 }
 
-.btn.btn-primary4 {
+.button-four {
   border-radius: 2px;
   border: 0px;
   color: #000000;
@@ -125,22 +125,22 @@ section .row img {
   background-color: #ffffff;
 }
 
-.btn.btn-primary4:hover {
+.button-four:hover {
   color: #ffffff;
   background-color: #000000;
 }
 
-.contact-btn {
+.button-contact {
   float: right;
 }
 
-.contact-btn a {
+.button-contact a {
   margin-right: 30px;
   padding: 8px 18px;
   border: 1px solid #000000;
 }
 
-.contact-btn a:active {
+.button-contact a:active {
   position: relative;
   bottom: 2px;
 }
@@ -148,7 +148,6 @@ section .row img {
 footer {
   font-size: 12px;
   padding: 20px 0;
-  position: absolute;
 }
 
 footer .col-sm-8 {
