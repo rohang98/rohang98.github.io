@@ -36,6 +36,8 @@ header nav a{
 }
 
 .jumbotron {
+  margin: 30px;
+  margin-top: 0px;
   display: flex;
   align-items: center;
   background-image: url('http://studentarena.org/wp-content/uploads/2015/12/6-1.jpg');
