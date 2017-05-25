@@ -55,6 +55,8 @@ header nav a{
 }
 
 .jumbotron2 {
+  margin: 30px;
+  margin-top: 0px;
   display: flex;
   align-items: center;
   background-image: url('https://pbs.twimg.com/media/Cyk14HGW8AAxfCI.jpg');
