@@ -1,161 +1,141 @@
-body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  overflow-y: scroll;
+.top-bar-section a img{
+  width: 200px;
+  height: 60px;
 }
 
-header {
-  padding: 20px 0;
+.top-bar a img:hover{
+  opacity: 0.75;
 }
 
-header .row,
-footer .row {
-  display: flex;
-  align-items: center;
-}
-
-header h1 {
-  font-weight: 700;
-  margin: 0;
-}
-
-header nav {
-  display: flex;
-  justify-content: flex-end;
+.top-bar-section .top-bar-section-linkedin-image{
   float: right;
+  width: 200px;
+  height: 50px;
+}
+
+.hello-section, .job-experience-section{
+  font-size: 32px;
+}
+
+.hello-section .container{
+  padding: 3% 15%;
+}
+
+.hello-section .hello-section-text-name.buildup, .hello-section-name, .hello-section-keyword{
+  font-weight: bold;
+}
+
+.hello-section .hello-section-name{
+  color: #338AFF;
+}
+
+.hello-section .hello-section-keyword{
+  color: #f00;
+}
+
+.job-experience-section .container{
+  padding: 3% 15%;
+}
+
+@media only screen and (max-device-width: 770px) {
+  .job-experience-section .container{
+    text-align: center;
+  }
+}
+
+.job-experience-section .job-section-title{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.job-experience-section .job{
+  margin-bottom: 20px;
+}
+
+.job-experience-section .job  img{
+  width: 200px;
+  height: 200px;
+}
+
+.job-experience-section .job  img:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.job-experience-section .job-modal{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  padding: 20px;
+  padding-left: 20px!important;
+}
+
+.job-experience-section .job-modal .modal-close-icon{
+  cursor: pointer;
   position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
-header p {
-  padding: 0 20px;
-  margin: 0;
-}
-
-header nav a{
-  color: #000000;
-}
-
-.jumbotron {
-  margin: 30px;
-  margin-top: 0px;
+.job-experience-section .job-modal .modal-job-image{
+  width: 200px;
   display: flex;
-  align-items: center;
-  background-image: url('https://images.unsplash.com/38/awhCbhLqRceCdjcPQUnn_IMG_0249.jpg');
-  background-size: cover;
-  color: #ffffff;
-  height: 500px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
+  margin: auto;
 }
 
-.jumbotron h2 {
-  font-size: 60px;
-  font-weight: 700;
-  margin: 0;
-  color: #fff;
+.job-experience-section .job-modal .modal-job-information{
+  font-size: 16px;
 }
 
-.jumbotron2 {
-  margin: 30px;
-  margin-top: 0px;
-  display: flex;
-  align-items: center;
-  background-image: url('https://pbs.twimg.com/media/Cyk14HGW8AAxfCI.jpg');
-  background-size: cover;
-  color: #ffffff;
-  height: 500px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
+.about-section .container{
+  padding: 3% 15%;
 }
 
-.jumbotron2 h3 {
-  font-size: 60px;
-  font-weight: 700;
-  margin: 0;
-  color: #fff;
+.about-section .about-section-title{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
 }
 
-section .row img {
-  margin: 0 0 30px;
+.about-section .about-section-image{
   width: 100%;
 }
 
-.col-md-6 {
-  margin: 0 0 30px;
+.about-section .about-section-content{
+  font-size: 16px;
 }
 
-.btn.btn-primary {
-  border-radius: 2px;
-  border: 0px;
-  color: #000000;
-  text-shadow: none;
-  background-color: #ffffff;
+.about-section .about-section-content .about-section-intro{
+  margin-bottom: 10px;
 }
 
-.btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: #000000;
+.about-section .about-section-coding-info-part{
+  display: block;
 }
 
-.btn.btn-primary2 {
-  border-radius: 2px;
-  border: 0px;
-  color: #000000;
-  text-shadow: none;
-  background-color: #ffffff;
+.about-section .about-section-coding-title{
+  font-weight: bold;
 }
 
-.btn.btn-primary2:hover {
-  color: #ffffff;
-  background-color: #000000;
+.about-section .about-section-coding-info-header{
+  color: #f00;
 }
 
-.btn.btn-primary3 {
-  border-radius: 2px;
-  border: 0px;
-  color: #000000;
-  text-shadow: none;
-  background-color: #ffffff;
+.contact-section .container{
+  padding: 3% 15%;
 }
 
-.btn.btn-primary3:hover {
-  color: #ffffff;
-  background-color: #000000;
+.contact-section .contact-section-title{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
 }
 
-.btn.btn-primary4 {
-  border-radius: 2px;
-  border: 0px;
-  color: #000000;
-  text-shadow: none;
-  background-color: #ffffff;
-}
-
-.btn.btn-primary4:hover {
-  color: #ffffff;
-  background-color: #000000;
-}
-
-.contact-btn {
-  float: right;
-}
-
-.contact-btn a {
-  margin-right: 30px;
-  padding: 8px 18px;
-  border: 1px solid #000000;
-}
-
-.contact-btn a:active {
-  position: relative;
-  bottom: 2px;
-}
-
-footer {
-  font-size: 12px;
-  padding: 20px 0;
-  position: absolute;
-}
-
-footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
+.contact-section .contact-section-links .contact-section-link{
+  font-size: 16px;
 }
