@@ -1,141 +1,90 @@
-.top-bar-section a img{
-  width: 200px;
-  height: 60px;
+body, .wrapper, .wrapper .background{
+	height: 100vh;
+	font-family: 'Palanquin';
 }
 
-.top-bar a img:hover{
-  opacity: 0.75;
+.wrapper .background {
+	background: #F76C6C;
 }
 
-.top-bar-section .top-bar-section-linkedin-image{
-  float: right;
-  width: 200px;
-  height: 50px;
+.wrapper .background .container {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
-.hello-section, .job-experience-section{
-  font-size: 32px;
+.wrapper .background .me-pic {
+	float: none;
+	border-radius: 50%;
 }
 
-.hello-section .container{
-  padding: 3% 15%;
+.wrapper .background .inner-box {
+	float: none;
+	text-align: center;
+	background: #243053;
+	padding: 50px;
+	border-radius: 25px;
+	color: white;
 }
 
-.hello-section .hello-section-text-name.buildup, .hello-section-name, .hello-section-keyword{
-  font-weight: bold;
+.wrapper .background .inner-box .name {
+	margin: 0;
+	padding: 25px;
+	font-size: 40px;
 }
 
-.hello-section .hello-section-name{
-  color: #338AFF;
+.wrapper .background .inner-box .keywords {
+	padding: 0 20px 20px;
+	font-size: 24px;
 }
 
-.hello-section .hello-section-keyword{
-  color: #f00;
+.wrapper .background .inner-box .icons {
+	list-style: none;
+	padding-left: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
-.job-experience-section .container{
-  padding: 3% 15%;
+@media only screen and (min-device-width: 600px) {
+	.wrapper .background .inner-box .icons {
+		flex-direction: row;
+	}
 }
 
-@media only screen and (max-device-width: 770px) {
-  .job-experience-section .container{
-    text-align: center;
-  }
+.wrapper .background .inner-box .icons a {
+	text-decoration: none;
 }
 
-.job-experience-section .job-section-title{
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  text-align: left;
+.wrapper .background .inner-box .icons .icon-square {
+	padding: 10px;
+	background: #6DB0D5;
+	border-radius: 5px;
 }
 
-.job-experience-section .job{
-  margin-bottom: 20px;
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+	.wrapper .background .inner-box .icons .icon-square {
+		margin-bottom: 10px;
+	}
 }
 
-.job-experience-section .job  img{
-  width: 200px;
-  height: 200px;
+@media only screen and (min-device-width: 900px) and (max-device-width: 1200px) {
+	.wrapper .background .inner-box .icons .icon-square {
+		padding: 5px;
+	}
 }
 
-.job-experience-section .job  img:hover{
-  opacity: 0.6;
-  cursor: pointer;
+.wrapper .background .inner-box .icons .icon-square:hover {
+	background: #94C5E0;
 }
 
-.job-experience-section .job-modal{
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #ffffff;
-  padding: 20px;
-  padding-left: 20px!important;
+@media only screen and (min-device-width: 320px) and (max-device-width: 950px) {
+	.wrapper .background .inner-box .icons .icon {
+		font-size: 24px;
+	}
 }
 
-.job-experience-section .job-modal .modal-close-icon{
-  cursor: pointer;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-
-.job-experience-section .job-modal .modal-job-image{
-  width: 200px;
-  display: flex;
-  margin: auto;
-}
-
-.job-experience-section .job-modal .modal-job-information{
-  font-size: 16px;
-}
-
-.about-section .container{
-  padding: 3% 15%;
-}
-
-.about-section .about-section-title{
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  text-align: left;
-}
-
-.about-section .about-section-image{
-  width: 100%;
-}
-
-.about-section .about-section-content{
-  font-size: 16px;
-}
-
-.about-section .about-section-content .about-section-intro{
-  margin-bottom: 10px;
-}
-
-.about-section .about-section-coding-info-part{
-  display: block;
-}
-
-.about-section .about-section-coding-title{
-  font-weight: bold;
-}
-
-.about-section .about-section-coding-info-header{
-  color: #f00;
-}
-
-.contact-section .container{
-  padding: 3% 15%;
-}
-
-.contact-section .contact-section-title{
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  text-align: left;
-}
-
-.contact-section .contact-section-links .contact-section-link{
-  font-size: 16px;
+.wrapper .background .inner-box .icons .icon-square .icon i, span {
+	color: white;
 }
