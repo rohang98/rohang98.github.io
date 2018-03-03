@@ -34,13 +34,13 @@ body, .wrapper, .wrapper .background{
 	margin: 0;
 	padding: 25px;
 	font-size: 40px;
-	animation: zoomIn 2s;
+	animation: fadeIn 2s;
 }
 
 .wrapper .background .inner-box .keywords {
 	padding: 0 20px 20px;
 	font-size: 24px;
-	animation: zoomIn 3s;
+	animation: fadeIn 3s;
 }
 
 .wrapper .background .inner-box .icons {
@@ -49,7 +49,7 @@ body, .wrapper, .wrapper .background{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	animation: zoomIn 4s;
+	animation: fadeIn 4s;
 }
 
 @media only screen and (min-device-width: 600px) {
