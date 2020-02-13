@@ -4,7 +4,7 @@ body, .wrapper, .wrapper .background{
 }
 
 .wrapper .background {
-	background: #F76C6C;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(217,131,159,1) 0%, rgba(91,177,255,1) 100%);
 }
 
 .wrapper .background .container {
@@ -23,7 +23,7 @@ body, .wrapper, .wrapper .background{
 .wrapper .background .inner-box {
 	float: none;
 	text-align: center;
-	background: #243053;
+	background: rgba(37, 47, 54, 0.769);;
 	padding: 50px;
 	border-radius: 25px;
 	color: white;
@@ -44,6 +44,8 @@ body, .wrapper, .wrapper .background{
 }
 
 .wrapper .background .inner-box .icons {
+	margin-left: 5%;
+	margin-right: 5%;
 	list-style: none;
 	padding-left: 0;
 	display: flex;
